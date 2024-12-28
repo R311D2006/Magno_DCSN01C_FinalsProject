@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Philippine Travel Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="featured-destinations">
+            <h2 class="featured-heading">Explore the Beauty of the Philippines</h2>
+
+            <div class="destination-card">
+                <img src="images/bohol.jpg" alt="Bohol" class="destination-img">
+                <div class="card-content">
+                    <h3>Bohol</h3>
+                    <p>Discover the stunning Chocolate Hills and enjoy a relaxing river cruise.</p>
+                    <button class="btn" onclick="toggleMoreInfo('bohol')">Read More</button>
+                    <div id="bohol" class="more-info">
+                        <p>Bohol is known for its famous Chocolate Hills.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="images/boracay.jpg" alt="Boracay" class="destination-img">
+                <div class="card-content">
+                    <h3>Boracay</h3>
+                    <p>Relax on the powdery white sand and enjoy the crystal-clear water of Boracay.</p>
+                    <button class="btn" onclick="toggleMoreInfo('boracay')">Read More</button>
+                    <div id="boracay" class="more-info">
+                        <p>Boracay offers one of the most beautiful beaches in the world, perfect for water sports and beach parties.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="images/palawan.jpg" alt="Palawan" class="destination-img">
+                <div class="card-content">
+                    <h3>Palawan</h3>
+                    <p>Explore the crystal-clear lagoons, towering limestone cliffs, and hidden beaches.</p>
+                    <button class="btn" onclick="toggleMoreInfo('palawan')">Read More</button>
+                    <div id="palawan" class="more-info">
+                        <p>Palawan is home to the stunning El Nido islands.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Philippine Travel Blog. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
